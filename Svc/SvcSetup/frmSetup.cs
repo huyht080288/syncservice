@@ -117,5 +117,18 @@ namespace SvcSetup
             catch { }
             return url;
         }
+
+        private void frmSetup_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Control && e.KeyCode == Keys.C)
+            {
+                panel1.Visible = false;
+            }
+        }
     }
 }

@@ -1,0 +1,7 @@
+Svc/.vs/
+Svc/*/.vs/
+Svc/obj/
+Svc/*/obj/
+Svc/bin/
+Svc/*/bin/
+Config/client_secret_482623698945-nf4i90m3f3ir8vta32kbmrn3ucp03k3a.apps.googleusercontent.com.json
